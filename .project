@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>buzzlogixtextanalysisapi</name>
+	<comment>This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/09/2015</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.googlecode.goclipse.goBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.googlecode.goclipse.core.goNature</nature>
+	</natures>
+</projectDescription>
