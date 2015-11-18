@@ -1,7 +1,7 @@
 /*
  * buzzlogixtextanalysisapi
  *
- * This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/09/2015
+ * This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/18/2015
  */
 
 package twittersentiment
@@ -11,7 +11,9 @@ package twittersentiment
  * Interface for the TWITTERSENTIMENT_IMPL
  */
 type TWITTERSENTIMENT interface {
-    CreateReturnTwitterSentiment (string) (error)
+    CreateReturnEnglishTwitterSentiment (string) (interface{}, error)
+
+    CreateReturnEnglishTwitterSentimentForm (string) (interface{}, error)
 }
 
 /*

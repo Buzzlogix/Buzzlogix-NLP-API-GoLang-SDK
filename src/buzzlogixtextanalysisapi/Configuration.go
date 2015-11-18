@@ -1,7 +1,7 @@
 /*
  * buzzlogixtextanalysisapi
  *
- * This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/09/2015
+ * This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/18/2015
  */
 
 package buzzlogixtextanalysisapi
@@ -10,7 +10,7 @@ package buzzlogixtextanalysisapi
 const BASEURI string = "http://text.buzzlogix.com:8000"
 
 var Config struct {
-    /** Supply your API key.  */
+    /** Supply your API Key.  */
     /** Replace the value of Apikey with an appropriate value */
     Apikey string
 }
