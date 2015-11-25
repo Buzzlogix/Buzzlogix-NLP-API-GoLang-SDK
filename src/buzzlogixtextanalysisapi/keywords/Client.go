@@ -1,7 +1,7 @@
 /*
  * buzzlogixtextanalysisapi
  *
- * This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/18/2015
+ * This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 11/25/2015
  */
 package keywords
 
@@ -82,12 +82,10 @@ func (me *KEYWORDS_IMPL) CreateReturnEnglishKeywords (
 
 /**
  * The text should be provided as multipart/form-data with the key 'text'. Files can be uploaded.
- * @param    string        apikey     parameter: Required
- * @param    string        body       parameter: Required
+ * @param    string        body     parameter: Required
  * @return	Returns the interface{} response from the API call
  */
 func (me *KEYWORDS_IMPL) CreateReturnEnglishKeywordsForm (
-            apikey string,
             body string) (interface{}, error) {
     //the base uri for api requests
     queryBuilder := buzzlogixtextanalysisapi.BASEURI;
@@ -108,7 +106,6 @@ func (me *KEYWORDS_IMPL) CreateReturnEnglishKeywordsForm (
     headers := map[string]interface{} {
         "user-agent" : "APIMATIC 2.0",
         "accept" : "application/json",
-        "apikey" : apihelper.ToString(apikey, ""),
         "apikey" : buzzlogixtextanalysisapi.Config.Apikey,
     }
 
