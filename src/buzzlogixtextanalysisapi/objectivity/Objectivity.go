@@ -1,7 +1,7 @@
 /*
  * buzzlogixtextanalysisapi
  *
- * This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 11/25/2015
+ * This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 12/06/2015
  */
 
 package objectivity
@@ -11,9 +11,11 @@ package objectivity
  * Interface for the OBJECTIVITY_IMPL
  */
 type OBJECTIVITY interface {
-    CreateReturnEnglishObjectivity (string) (interface{}, error)
+    CreateReturnEnglishObjectivityPlaintext (string) (interface{}, error)
 
-    CreateReturnEnglishObjectivityForm (string) (interface{}, error)
+    CreateReturnEnglishObjectivityMultipartForm ([]byte) (interface{}, error)
+
+    CreateReturnEnglishObjectivityEncodedForm (string) (interface{}, error)
 }
 
 /*

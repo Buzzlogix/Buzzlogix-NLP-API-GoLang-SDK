@@ -1,16 +1,16 @@
 /*
  * buzzlogixtextanalysisapi
  *
- * This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 11/25/2015
+ * This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 12/06/2015
  */
 
 package buzzlogixtextanalysisapi
 
 /** The base Uri for API calls */
-const BASEURI string = "http://text.buzzlogix.com:8000"
+const BASEURI string = "https://buzzlogix-text-analysis.p.mashape.com"
 
 var Config struct {
     /** Supply your API Key.  */
-    /** Replace the value of Apikey with an appropriate value */
-    Apikey string
+    /** Replace the value of XMashapeKey with an appropriate value */
+    XMashapeKey string
 }
